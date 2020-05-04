@@ -1,0 +1,227 @@
+
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0px;
+  
+  
+  font-family: 'Avenir Black', 'Arial Black', sans-serif;
+  
+}
+
+#title {
+  z-index:900;
+  position: relative;
+}
+
+
+
+
+header {
+  position:relative;
+  text-align: center;
+  
+  height: 100px;
+  width: 100%;
+  background-color:black;
+  
+  margin-top: 0;
+}
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background: black;
+    /*opacity: 0.5;*/
+    z-index:300;
+  }
+
+  #nav li a{
+    text-align: right;
+  }
+
+  #rcorners1 {
+    z-index:-1;
+
+
+
+  }
+
+  .form-group{
+    display:block;
+    width:100%;
+    z-index: 0;
+  
+  }
+}
+
+
+
+
+
+
+/* Nav  Bar*/
+#pig {
+  height:50px;
+  width:65px;
+  
+  float:left;
+
+  
+  
+  
+  position:absolute;
+  position:fixed;
+  left:60px;
+  top:17px;
+  
+}
+
+#nav li{
+  /*margin:-5px;
+  padding:15px;*/
+  padding-top:10px;
+  padding-right:45px; 
+  min-width: 10px;
+}
+#nav .navbar-brand {
+  color: #EAAFA9;
+  position:absolute;
+  position:fixed;
+  left:135px;
+  top:15px;
+  font-size: 30px;
+  
+}
+#nav li a {
+  
+  color: white; /*changes all the list links to white*/
+  padding:15px;
+  font-size:15px;
+  
+  
+  
+ 
+}
+
+
+
+
+
+
+#rute {
+  
+  color: #EAAFA9;
+  position:absolute;
+  position:fixed;
+  left:150px;
+  top:15px;
+  
+}
+
+/* Boot Strap Nav Bar */
+
+
+.form-group{
+  position: relative; 
+  z-index: 9999;
+  padding-left:80px;
+  padding-right:80px;
+
+}
+
+#toppush{
+  height:30px;
+  width: 100%;
+} 
+  
+  
+
+
+
+
+
+
+
+#rcorners1 {
+  
+  border-radius: 25px;
+  background: #E8E7E7;
+  
+  width: 95%;
+  position: absolute;
+  
+  
+  top:70px; 
+  left: 30px;
+  
+  margin:10px;
+
+  
+
+  height:950px ; 
+
+  
+
+  z-index:3;
+  
+  
+}
+
+#rcorners3 {
+  
+  border-radius: 25px;
+  background: #EAAFA9;
+  
+  width: 95%;
+  position:absolute;
+  top:70px; 
+  left: 30px;
+  margin:10px;
+  
+
+  height:950px ; 
+
+  
+
+  z-index:3;
+  
+  
+}
+
+#rcorners2{
+  border-radius: 20px;
+  background: white;
+  width: 60%;
+  padding-right:80px;
+  height: 160px;
+  z-index:4;
+ 
+border-style: solid;
+position:relative;
+margin-top:250px;
+
+/*Center*/
+margin-left: auto;
+margin-right: auto;
+    
+
+}
+
+#name{
+  border-radius: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
